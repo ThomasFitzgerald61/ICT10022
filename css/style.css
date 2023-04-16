@@ -71,6 +71,7 @@ nav a:hover {
 
 .hero-image img {
   max-width: 100%;
+  width: 9%;
 }
 
 .hero-text h1 {
@@ -211,7 +212,7 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-/* Center the login and signup forms on the screen */
+/* Center the Contac us, login and signup forms on the screen */
 form {
   position: absolute;
   top: 50%;
@@ -252,4 +253,8 @@ form button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+}
+
+input[type="text"], input[type="email"] {
+  background-color: #d6d6d6;
 }

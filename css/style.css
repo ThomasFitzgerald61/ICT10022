@@ -1,0 +1,255 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #f7f7f7;
+}
+
+/* Hero section styles */
+#hero {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* About section styles */
+#about {
+  padding: 100px 0;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin: 0 0 40px;
+}
+
+#about ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#about li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#about li:before {
+  content: '\2022';
+  color: #333;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#about p:last-child {
+  margin-bottom: 0;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
+/* About.html */
+#services {
+  background-color: #f2f2f2;
+  padding: 60px 0;
+}
+
+#services h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service i {
+  font-size: 48px;
+  color: #e8716d;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Center the login and signup forms on the screen */
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form header */
+form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style the form input fields */
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Style the form button */
+form button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

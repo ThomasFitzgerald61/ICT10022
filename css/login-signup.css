@@ -1,0 +1,50 @@
+/* Style for the login/signup form container */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the form fields */
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+  color: #333;
+}
+
+/* Style for the form submit button */
+input[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #45a049;
+}
+
+/* Style for the error message */
+.error-message {
+  color: red;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Style for the success message */
+.success-message {
+  color: green;
+  font-style: italic;
+  margin-bottom: 20px;
+}
